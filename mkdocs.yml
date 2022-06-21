@@ -1,0 +1,41 @@
+site_name: Atelier Jeux Vidéos
+
+
+theme:
+  name : material
+  language : fr
+  favicon : images/favicon.ico
+  icon :
+    logo : fontawesome/solid/code
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true   
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+extra_javascript:
+    - xtra/javascripts/mathjax-config.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+    - xtra/stylesheets/ajustements.css 
+    - xtra/stylesheets/extra-style.css
