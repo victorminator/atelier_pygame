@@ -1,0 +1,836 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.13">
+    
+    
+      
+        <title>C4 - Du contenu pour l'écran - Atelier Jeux Vidéos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e411adfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../xtra/stylesheets/ajustements.css">
+    
+      <link rel="stylesheet" href="../xtra/stylesheets/extra-style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#c4-du-contenu-pour-lecran" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Atelier Jeux Vidéos" class="md-header__button md-logo" aria-label="Atelier Jeux Vidéos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m414.8 40.79-128 448.01c-4.9 17-22.6 26.8-39.6 22-17-4.9-26.8-22.6-22-39.6l128-447.99c4.9-16.994 22.6-26.834 39.6-21.978 17 4.855 26.8 22.568 22 39.558zm103.8 80.61 112 112c12.5 12.5 12.5 32.7 0 45.2l-112 112c-12.5 12.5-32.7 12.5-45.2 0s-12.5-32.7 0-45.2l89.3-89.4-89.3-89.4c-12.5-12.5-12.5-32.7 0-45.2s32.7-12.5 45.2 0zm-352 45.2L77.25 256l89.35 89.4c12.5 12.5 12.5 32.7 0 45.2s-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2l112.028-112c12.5-12.5 32.7-12.5 45.2 0s12.5 32.7 0 45.2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Atelier Jeux Vidéos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              C4 - Du contenu pour l'écran
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Atelier Jeux Vidéos" class="md-nav__button md-logo" aria-label="Atelier Jeux Vidéos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m414.8 40.79-128 448.01c-4.9 17-22.6 26.8-39.6 22-17-4.9-26.8-22.6-22-39.6l128-447.99c4.9-16.994 22.6-26.834 39.6-21.978 17 4.855 26.8 22.568 22 39.558zm103.8 80.61 112 112c12.5 12.5 12.5 32.7 0 45.2l-112 112c-12.5 12.5-32.7 12.5-45.2 0s-12.5-32.7 0-45.2l89.3-89.4-89.3-89.4c-12.5-12.5-12.5-32.7 0-45.2s32.7-12.5 45.2 0zm-352 45.2L77.25 256l89.35 89.4c12.5 12.5 12.5 32.7 0 45.2s-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2l112.028-112c12.5-12.5 32.7-12.5 45.2 0s12.5 32.7 0 45.2z"/></svg>
+
+    </a>
+    Atelier Jeux Vidéos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Atelier programmation de jeux vidéos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C2-Python/" class="md-nav__link">
+        C2 - Programmer en Python
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C3-Configuration/" class="md-nav__link">
+        C3 - Configurer pygame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          C4 - Du contenu pour l'écran
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        C4 - Du contenu pour l'écran
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-definir-un-arriere-plan-pour-notre-jeu" class="md-nav__link">
+    1 - Définir un arrière-plan pour notre jeu
+  </a>
+  
+    <nav class="md-nav" aria-label="1 - Définir un arrière-plan pour notre jeu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remplir-avec-une-couleur" class="md-nav__link">
+    Remplir avec une couleur
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-une-image-comme-arriere-plan" class="md-nav__link">
+    Définir une image comme arrière-plan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-afficher-une-image-avec-la-methode-blit" class="md-nav__link">
+    2 - Afficher une image avec la méthode blit
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Afficher une image avec la méthode blit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#afficher-notre-arriere-plan" class="md-nav__link">
+    Afficher notre arrière-plan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#se-positionner-dans-lecran" class="md-nav__link">
+    Se positionner dans l'écran
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#afficher-et-placer-nimporte-quelle-image" class="md-nav__link">
+    Afficher et placer n'importe quelle image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-bonnes-pratiques-et-dangers" class="md-nav__link">
+    3 - Bonnes pratiques et dangers
+  </a>
+  
+    <nav class="md-nav" aria-label="3 - Bonnes pratiques et dangers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attention-aux-plans" class="md-nav__link">
+    Attention aux plans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formats-compatibles" class="md-nav__link">
+    Formats compatibles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convertir-limage" class="md-nav__link">
+    Convertir l'image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-transformer-une-image" class="md-nav__link">
+    4 - Transformer une image
+  </a>
+  
+    <nav class="md-nav" aria-label="4 - Transformer une image">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#redimensionner-une-image" class="md-nav__link">
+    Redimensionner une image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotater-une-image" class="md-nav__link">
+    Rotater une image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C5-Rectangles/" class="md-nav__link">
+        C5 - Les rectangles
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C6-Interactions/" class="md-nav__link">
+        C6 - Interactions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C7-TextesSons/" class="md-nav__link">
+        C7 - Sons et textes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C8-Sprite/" class="md-nav__link">
+        C8 - Sprites et groupes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C9-Techniques/" class="md-nav__link">
+        C9 - Techniques et animation
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-definir-un-arriere-plan-pour-notre-jeu" class="md-nav__link">
+    1 - Définir un arrière-plan pour notre jeu
+  </a>
+  
+    <nav class="md-nav" aria-label="1 - Définir un arrière-plan pour notre jeu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remplir-avec-une-couleur" class="md-nav__link">
+    Remplir avec une couleur
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-une-image-comme-arriere-plan" class="md-nav__link">
+    Définir une image comme arrière-plan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-afficher-une-image-avec-la-methode-blit" class="md-nav__link">
+    2 - Afficher une image avec la méthode blit
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Afficher une image avec la méthode blit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#afficher-notre-arriere-plan" class="md-nav__link">
+    Afficher notre arrière-plan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#se-positionner-dans-lecran" class="md-nav__link">
+    Se positionner dans l'écran
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#afficher-et-placer-nimporte-quelle-image" class="md-nav__link">
+    Afficher et placer n'importe quelle image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-bonnes-pratiques-et-dangers" class="md-nav__link">
+    3 - Bonnes pratiques et dangers
+  </a>
+  
+    <nav class="md-nav" aria-label="3 - Bonnes pratiques et dangers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attention-aux-plans" class="md-nav__link">
+    Attention aux plans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formats-compatibles" class="md-nav__link">
+    Formats compatibles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convertir-limage" class="md-nav__link">
+    Convertir l'image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-transformer-une-image" class="md-nav__link">
+    4 - Transformer une image
+  </a>
+  
+    <nav class="md-nav" aria-label="4 - Transformer une image">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#redimensionner-une-image" class="md-nav__link">
+    Redimensionner une image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotater-une-image" class="md-nav__link">
+    Rotater une image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="c4-du-contenu-pour-lecran">C4 - Du contenu pour l'écran</h1>
+<p>Jusque-là, nous avons pu créer un écran noir possédant les dimensions souhaitées. Mais un jeu vidéo, ce n'est pas qu'un écran noir ! Dans ce chapitre, nous apprendrons à embeillir notre écran avec des images et des couleurs.</p>
+<h2 id="1-definir-un-arriere-plan-pour-notre-jeu">1 - Définir un arrière-plan pour notre jeu</h2>
+<h3 id="remplir-avec-une-couleur">Remplir avec une couleur</h3>
+<p>La première option d'arrière-plan est une couleur. Pour cela, nous pouvons la méthode <code>fill(couleur)</code> associée à notre écran. Par exemple, pour obtenir un arrière-plan rouge, on peut écrire dans la boucle principale :</p>
+<div class="highlight"><pre><span></span><code><span class="n">screen</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="s2">&quot;red&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Nous ne préciserons pas toujours si une instruction doit être incluse dans la boucle principale ou non. Dans la boucle principale, on écrit le code qui constitue le <em>déroulement</em> et les mécaniques du jeu, donc ce qui doit continuellement être répété ou mis à jour. Avant cette boucle, on écrit les instructions qui devront être exécutées avant le jeu en lui-même, ce qui inclut régulièrement l'initialisation des variables et la définition des fonctions.</p>
+</div>
+<p>L'affichage des images et des couleurs doit être constamment mis à jour (nous verrons pourquoi plus bas), ce pourquoi ce type d'instruction doit être écrit à l'intérieur de la boucle principale.</p>
+<h3 id="definir-une-image-comme-arriere-plan">Définir une image comme arrière-plan</h3>
+<p>L'autre option est de prendre une image pour l'arrière-plan. Nous ne pouvons pas directement utiliser des images à partir de leur chemin d'accès. Nous devons d'aborder créer une <strong>surface</strong> associée à l'image. Dans Pygame, une surface est tout objet à deux dimensions pouvant être perçu par le joueur. L'écran que nous avons créé est lui-même une surface par exemple, les textes et les images en sont aussi une. Afin de créer une surface à partir d'un chemin d'accès à une image, nous pouvons utiliser la fonction <code>load</code> du module image :</p>
+<div class="highlight"><pre><span></span><code><span class="n">background</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/background.png&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Nous initialisons ici une variable. Il serait donc préférable d'écrire la ligne çi-dessus AVANT la boucle principale. Nous obtenons ainsi une surface <code>background</code> qu'il reste à afficher à l'écran. A titre d'exemple, nous essayerons d'afficher cette <a href="../images/highway.png">image</a> à l'écran.</p>
+<h2 id="2-afficher-une-image-avec-la-methode-blit">2 - Afficher une image avec la méthode blit</h2>
+<h3 id="afficher-notre-arriere-plan">Afficher notre arrière-plan</h3>
+<p>Notre arrière-plan est une surface comme toutes les autres. On peut donc l'afficher à l'écran comme toutes les autres images que nous utiliserons grâce à la méthode <code>blit(surface, coordonnées)</code> reliée à notre écran :</p>
+<div class="highlight"><pre><span></span><code><span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">background</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Faites-bien attention à ce que l'image d'arrière-plan utilisée possède les mêmes dimensions que l'écran que vous avez créé</p>
+</div>
+<h3 id="se-positionner-dans-lecran">Se positionner dans l'écran</h3>
+<p>Vous vous demandez peut-être à quoi correspond le <code>(0, 0)</code> dans la méthode <code>blit</code>. En considérant notre écran comme un repère de coordonnées, (0, 0) est un point <span class="arithmatex">\((x, y)\)</span> sur ce repère. Il est important de retenir que le point (0, 0) est situé au coin supérieur gauche de l'écran et que les surfaces sont également placées selon leur coin supérieur gauche. En écrivant <code>screen.blit(background, (0, 0))</code>, on place le coin supérieur gauche de la surface <code>background</code> sur le coin supérieur gauche de l'écran <code>screen</code>. Si le point (0, 0) est situé en haut à gauche, alors plus on se déplace vers la gauche plus <span class="arithmatex">\(x\)</span> sera faible, de même que plus on se déplace vers la droite plus <span class="arithmatex">\(x\)</span> sera élevé. L'axe <span class="arithmatex">\(y\)</span> évolue de manière similaire.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Le point <span class="arithmatex">\(y=0\)</span> est situé en <strong>haut</strong> de l'écran, contrairement à la plupart des repères où le point <span class="arithmatex">\(y=0\)</span> est situé en bas. Donc, plus on se déplace vers le bas, plus <span class="arithmatex">\(y\)</span> sera élevé. Et plus on se déplace vers le haut, plus <span class="arithmatex">\(y\)</span> sera faible. Cela paraît contre-intuitif donc faites bien attention à la valeur que vous donnez à <span class="arithmatex">\(y\)</span>.</p>
+</div>
+<p>En d'autres termes, voiçi comment l'on peut représenter notre écran :</p>
+<p><img alt="repr_ecran" src="../images/tuto4.png" /></p>
+<h3 id="afficher-et-placer-nimporte-quelle-image">Afficher et placer n'importe quelle image</h3>
+<p>Nous procèderons de la même manière que pour l'arrière-plan afin d'afficher et de placer n'importe quelle image. Essayons par exemple de placer cette <a href="../images/taxi.png">image</a> vers le centre de l'écran. Rappelez-vous, il faut:</p>
+<ol>
+<li>Commencer par charger l'image pour en faire une surface</li>
+<li>Appeler la méthode blit au bon endroit dans le code</li>
+<li>Spécifier les coordonées où sera placé le coin supérieur gauche de l'image</li>
+</ol>
+<div class="admonition résoudre">
+<p class="admonition-title">Résoudre</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Conseils</label><label for="__tabbed_1_2">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Faites-bien attention aux différents <strong>plans</strong> du jeu. L'ordre dans lequel les instructions <code>blit</code> sont écrites est important car c'est ce qui définit les plans du jeu. La surface dans la toute première instruction blit sera en arrière-plan, tout comme la surface dans l'instruction blit située le plus bas dans la boucle sera en premier plan. L'écran n'est qu'un empilement d'images, ainsi une image en premier plan <em>écrase</em> les images précédentes. Nous illustrerons cela à travers différents exemples plus bas.</p>
+</div>
+<div class="tabbed-block">
+<p>Nous omettons tout le code pré-requis vu auparavant et considérons que nous avons déjà écrit tout cela tout comme nous stockons les dimensions de l'écran dans les variables <code>screen_width</code> et <code>screen_height</code>:
+<div class="highlight"><pre><span></span><code><span class="n">background</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/background.png&quot;</span><span class="p">)</span>
+<span class="n">voiture</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/taxi.png&quot;</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="c1"># Boucle évènementielle ici</span>
+    <span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">background</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span>
+    <span class="c1"># Méthode update et tick ici</span>
+</code></pre></div></p>
+</div>
+</div>
+</div>
+</div>
+<h2 id="3-bonnes-pratiques-et-dangers">3 - Bonnes pratiques et dangers</h2>
+<h3 id="attention-aux-plans">Attention aux plans</h3>
+<p>Qu'arriverait-t-il si on affichait <code>voiture</code> <em>avant</em> d'afficher <code>background</code> ? Signifiant que l'on écrirait :</p>
+<div class="highlight"><pre><span></span><code><span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span>
+<span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">background</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+</code></pre></div>
+<p>En exécutant le code, la voiture n'apparaît plus du tout à l'écran ! Voiçi ce que l'on ordonne concrètement à l'ordinateur d'effectuer :
+<div class="highlight"><pre><span></span><code>Répéter à l&#39;infini jusqu&#39;à ce que le joueur quitte le jeu:
+    Afficher voiture
+    Afficher arrière-plan
+</code></pre></div></p>
+<p>L'ordinateur affiche l'arrière-plan après avoir affiché la voiture. L'arrière-plan va ainsi <em>masquer</em> la voiture. Il est important de retenir que notre jeu vidéo n'est qu'une suite d'images qu'on <em>empile</em>. Une image qui a été empilée au dessus d'une autre masquera cette dernière.</p>
+<p>Et si il n'y avait pas d'arrière-plan du tout ? En modifiant constamment la coordonnée <span class="arithmatex">\(x\)</span> de la voiture, quelque chose d'étrange se produit:</p>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="c1"># Boucle évènementielle ici</span>
+    <span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span>
+    <span class="n">x</span> <span class="o">+=</span> <span class="mi">10</span>
+    <span class="c1"># Update et tick</span>
+</code></pre></div>
+<p>La voiture laisse des traces et on a l'impression qu'elle se clone indéfiniment. Cela est expliqué par le fait que les images précédentes n'ont jamais été complètement <em>écrasées</em>. Ce pourquoi il est indispensable de constamment empiler un arrière-plan en premier lieu. Car le rôle de l'arrière-plan, en plus de son aspect esthétique, est d'écraser les surfaces précédemment empilées.</p>
+<p>Retenons donc que nous devons toujours afficher un arrière-plan EN PREMIER, et puis les différentes autres images selon le plan auquel elles appartiennent.</p>
+<h3 id="formats-compatibles">Formats compatibles</h3>
+<p>Nous privilégierons le format .PNG pour nos jeux vidéos. Le format .JPG est également compatible mais par convention, on va plutôt utiliser le format png. Cela s'explique simplement du fait que le format JPG est utilisé pour les photos. Or nous utiliserons rarement des photos. Alors que le format PNG donnera une meilleure qualité d'image et est utilisé pour l'art virtuel (les logos par exemple seront généralement dans ce format), ce qui sera prioritaire pour notre jeu.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Certains formats ne sont pas compatibles avec Pygame. Le format .gif par exemple n'est pas pris en charge. Prêtez donc attention au format des images que vous utiliserez</p>
+</div>
+<h3 id="convertir-limage">Convertir l'image</h3>
+<p>Une subtilité importante lorsqu'on charge une image est de <strong>la convertir</strong> avec la méthode <code>convert_alpha</code>. Dorénavant lorsque nous souhaiterons charger une image, nous n'écrirons plus:</p>
+<div class="highlight"><pre><span></span><code><span class="n">surface</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;image.png&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Mais plutôt:</p>
+<div class="highlight"><pre><span></span><code><span class="n">surface_convertie</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;image.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+</code></pre></div>
+<p>Cela ne semble servir à rien au premier regard mais lorsque nous travaillerons avec une grande quantité d'images. La différence apportée sera importante. En effet <code>convert_alpha</code> permet de convertir une image en un format que Pygame arrive plus facilement à gérer. Utiliser <code>convert_alpha</code> réduit grandement les risques de ralentissement du jeu lorsque celui-ci est rempli d'images. Après tout, personne n'aime un jeu qui "lag".</p>
+<h2 id="4-transformer-une-image">4 - Transformer une image</h2>
+<p>Il arrive qu'une image sur Internet ne soit pas des dimensions souhaitées. Ou encore qu'on souhaite à ce que l'image subisse une rotation. Tel est le rôle du module <em>pygame.transform</em>.</p>
+<h3 id="redimensionner-une-image">Redimensionner une image</h3>
+<p>La fonction <code>scale(surface, dimensions)</code> renvoie l'image <code>surface</code> aux dimensions données (en pixels). Par exemple, en reprenant l'image <code>taxi.png</code> :</p>
+<div class="highlight"><pre><span></span><code><span class="n">voiture</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/taxi.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+<span class="n">voiture_petite</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="p">(</span><span class="mi">29</span> <span class="mi">65</span><span class="p">))</span>
+<span class="n">voiture_grande</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="p">(</span><span class="mi">116</span><span class="p">,</span> <span class="mi">222</span><span class="p">))</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Si vous souhaitez simplement doubler la taille d'une image, vous pouvez utiliser la fonction <code>scale2x(surface)</code> du module <em>transform</em>.</p>
+</div>
+<h3 id="rotater-une-image">Rotater une image</h3>
+<p>La fonction <code>rotate(surface, angle)</code> renvoie l'image <code>surface</code> tournée à <code>angles</code> degrés (dans le sens antihoraire). Il sera probablement commun d'utiliser les angles 90°, 180° et 270° et particulièrement 180° car cette angle permet de parfaitement retourner l'image dans le sens opposé. Voiçi quelques exemples:</p>
+<div class="highlight"><pre><span></span><code><span class="n">voiture</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/taxi.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+<span class="n">voiture_inverse</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="mi">180</span><span class="p">)</span>
+<span class="n">voiture_90</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+<span class="n">voiture_270</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="n">voiture</span><span class="p">,</span> <span class="mi">270</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="conclusion">Conclusion</h2>
+<p>Nous devrions désormais maîtriser les images. Nous avons appris à charger une image en surface, l'afficher, définir ses coordonnées, appliquer un arrière-plan et transformer une image. Nous apprendrons à positionner les images avec plus de précision lors du prochain chapitre.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page">
+      
+        
+        <a href="../C3-Configuration/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: C3 - Configurer pygame" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              C3 - Configurer pygame
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../C5-Rectangles/" class="md-footer__link md-footer__link--next" aria-label="Suivant: C5 - Les rectangles" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              C5 - Les rectangles
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
+      
+        <script src="../xtra/javascripts/mathjax-config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
