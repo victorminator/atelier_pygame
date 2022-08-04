@@ -30,6 +30,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+plugins:
+    - mkdocs-video
 
 extra_javascript:
     - xtra/javascripts/mathjax-config.js
