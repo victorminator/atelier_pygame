@@ -1,0 +1,1035 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.13">
+    
+    
+      
+        <title>C6 - Interactions - Atelier Jeux Vidéos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e411adfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../xtra/stylesheets/ajustements.css">
+    
+      <link rel="stylesheet" href="../xtra/stylesheets/extra-style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#c6-interactions" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Atelier Jeux Vidéos" class="md-header__button md-logo" aria-label="Atelier Jeux Vidéos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m414.8 40.79-128 448.01c-4.9 17-22.6 26.8-39.6 22-17-4.9-26.8-22.6-22-39.6l128-447.99c4.9-16.994 22.6-26.834 39.6-21.978 17 4.855 26.8 22.568 22 39.558zm103.8 80.61 112 112c12.5 12.5 12.5 32.7 0 45.2l-112 112c-12.5 12.5-32.7 12.5-45.2 0s-12.5-32.7 0-45.2l89.3-89.4-89.3-89.4c-12.5-12.5-12.5-32.7 0-45.2s32.7-12.5 45.2 0zm-352 45.2L77.25 256l89.35 89.4c12.5 12.5 12.5 32.7 0 45.2s-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2l112.028-112c12.5-12.5 32.7-12.5 45.2 0s12.5 32.7 0 45.2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Atelier Jeux Vidéos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              C6 - Interactions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Atelier Jeux Vidéos" class="md-nav__button md-logo" aria-label="Atelier Jeux Vidéos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m414.8 40.79-128 448.01c-4.9 17-22.6 26.8-39.6 22-17-4.9-26.8-22.6-22-39.6l128-447.99c4.9-16.994 22.6-26.834 39.6-21.978 17 4.855 26.8 22.568 22 39.558zm103.8 80.61 112 112c12.5 12.5 12.5 32.7 0 45.2l-112 112c-12.5 12.5-32.7 12.5-45.2 0s-12.5-32.7 0-45.2l89.3-89.4-89.3-89.4c-12.5-12.5-12.5-32.7 0-45.2s32.7-12.5 45.2 0zm-352 45.2L77.25 256l89.35 89.4c12.5 12.5 12.5 32.7 0 45.2s-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2l112.028-112c12.5-12.5 32.7-12.5 45.2 0s12.5 32.7 0 45.2z"/></svg>
+
+    </a>
+    Atelier Jeux Vidéos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Atelier programmation de jeux vidéos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C2-Python/" class="md-nav__link">
+        C2 - Programmer en Python
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C3-Configuration/" class="md-nav__link">
+        C3 - Configurer pygame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C4-Images/" class="md-nav__link">
+        C4 - Du contenu pour l'écran
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C5-Rectangles/" class="md-nav__link">
+        C5 - Les rectangles
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          C6 - Interactions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        C6 - Interactions
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-evenements" class="md-nav__link">
+    1 - Evènements
+  </a>
+  
+    <nav class="md-nav" aria-label="1 - Evènements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntaxe" class="md-nav__link">
+    Syntaxe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keydown-et-keyup" class="md-nav__link">
+    KEYDOWN et KEYUP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-constantes-a-retenir" class="md-nav__link">
+    2 - Constantes à retenir
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Constantes à retenir">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#constantes-devenements" class="md-nav__link">
+    Constantes d'évènements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constantes-touches" class="md-nav__link">
+    Constantes touches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-get_pressed" class="md-nav__link">
+    3 - Get_pressed
+  </a>
+  
+    <nav class="md-nav" aria-label="3 - Get_pressed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#touches-du-clavier" class="md-nav__link">
+    Touches du clavier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#souris" class="md-nav__link">
+    Souris
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-les-timers" class="md-nav__link">
+    4 - Les timers
+  </a>
+  
+    <nav class="md-nav" aria-label="4 - Les timers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variables-userevent" class="md-nav__link">
+    Variables USEREVENT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creer-un-timer-continu" class="md-nav__link">
+    Créer un timer continu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametre-loops" class="md-nav__link">
+    Paramètre loops
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge-final" class="md-nav__link">
+    Challenge Final
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C7-TextesSons/" class="md-nav__link">
+        C7 - Sons et textes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C8-Sprite/" class="md-nav__link">
+        C8 - Sprites et groupes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C9-Techniques/" class="md-nav__link">
+        C9 - Techniques et animation
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-evenements" class="md-nav__link">
+    1 - Evènements
+  </a>
+  
+    <nav class="md-nav" aria-label="1 - Evènements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntaxe" class="md-nav__link">
+    Syntaxe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keydown-et-keyup" class="md-nav__link">
+    KEYDOWN et KEYUP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-constantes-a-retenir" class="md-nav__link">
+    2 - Constantes à retenir
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Constantes à retenir">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#constantes-devenements" class="md-nav__link">
+    Constantes d'évènements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constantes-touches" class="md-nav__link">
+    Constantes touches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-get_pressed" class="md-nav__link">
+    3 - Get_pressed
+  </a>
+  
+    <nav class="md-nav" aria-label="3 - Get_pressed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#touches-du-clavier" class="md-nav__link">
+    Touches du clavier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#souris" class="md-nav__link">
+    Souris
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-les-timers" class="md-nav__link">
+    4 - Les timers
+  </a>
+  
+    <nav class="md-nav" aria-label="4 - Les timers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variables-userevent" class="md-nav__link">
+    Variables USEREVENT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creer-un-timer-continu" class="md-nav__link">
+    Créer un timer continu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametre-loops" class="md-nav__link">
+    Paramètre loops
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge-final" class="md-nav__link">
+    Challenge Final
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="c6-interactions">C6 - Interactions</h1>
+<h2 id="1-evenements">1 - Evènements</h2>
+<h3 id="syntaxe">Syntaxe</h3>
+<p>Tout d'abord, tout évènement doit être écrit à l'intérieur de la <em>boucle évènementielle</em> :</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+</code></pre></div>
+<p>La syntaxe pour utiliser un évènement est :</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">EVENT_NAME</span><span class="p">:</span>
+    <span class="c1"># code à éxécuter si l&#39;évènement a lieu</span>
+</code></pre></div>
+<p><code>EVENT_NAME</code> doit être remplacé par le nom de l'évènement (ex : <code>pygame.QUIT</code>) qui est généralement écrit en majuscules.</p>
+<h3 id="keydown-et-keyup">KEYDOWN et KEYUP</h3>
+<p>Pygame offre divers évènements à notre disposition mais ceux que nous utiliserons le plus souvent sont <code>pygame.QUIT</code>, <code>pygame.KEYDOWN</code> et <code>pygame.KEYUP</code>. <code>KEYDOWN</code> se produit dès lors qu'une touche quelquonque du clavier est <em>pressée</em>. Tandis que <code>KEYUP</code> se produit dès lors qu'une touche quelquonque du clavier est <em>relâchée</em> :</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">QUIT</span><span class="p">:</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYDOWN</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On vient d&#39;appuyer sur une touche&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYUP</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On vient de relâcher une touche&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Ceçi pourrait cependant encore être amélioré. En effet, notre texte s'affiche peu importe la touche avec laquelle on interagit. Or, nous pouvons préciser une touche particulière. La syntaxe pour préciser une touche du clavier est :</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_NAME</span><span class="p">:</span>
+    <span class="c1"># code à éxécuter si c&#39;est avec cette clé que l&#39;on a interagi</span>
+</code></pre></div>
+<p>En remplaçant <code>K_NAME</code> par la variable associée à la touche correspondante. Ces variables sont facilement identifiables car elles possèdent toutes comme préfixe <code>K_</code>. Par exemple, si nous souhaitons que quelque chose de précis se produise si nous appuyons sur la touche r ou que nous relâchons la barre espace :</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">QUIT</span><span class="p">:</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYDOWN</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_r</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On vient d&#39;appuyer sur la touche r&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYUP</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_SPACE</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On vient de relâcher la barre espace&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="2-constantes-a-retenir">2 - Constantes à retenir</h2>
+<h3 id="constantes-devenements">Constantes d'évènements</h3>
+<p><code>KEYDOWN</code> : appuyer sur une touche</p>
+<p><code>KEYUP</code> : relâcher une touche</p>
+<p><code>QUIT</code> : cliquer sur la croix rouge (pour fermer la fenêtre)</p>
+<p><code>MOUSEBUTTONDOWN</code> : appuyer sur l'un des boutons de votre souris</p>
+<p><code>MOUSEBUTTONUP</code> : relâcher l'un des boutons de votre souris</p>
+<p><code>MOUSEMOTION</code> : déplacer le curseur</p>
+<h3 id="constantes-touches">Constantes touches</h3>
+<p>Flèches directionelles :</p>
+<ul>
+<li><code>K_LEFT</code> : flèche gauche</li>
+<li><code>K_RIGHT</code> : flèche droite</li>
+<li><code>K_UP</code> : flèche haut</li>
+<li><code>K_DOWN</code> : flèche bas</li>
+</ul>
+<p><code>K_SPACE</code> : barre espace</p>
+<h2 id="3-get_pressed">3 - Get_pressed</h2>
+<p>L'inconvénient avec <code>KEYDOWN</code> est que l'évènement se produit exclusivement lorsque l'on appuie sur la touche mais pas lorsqu'on reste appuyé dessus. C'est l'action d'appuyer sur une touche qui active l'évènement et non pas l'état d'être pressé. Ce problème peut être résolu grâce à la fonction <code>get_pressed</code>.</p>
+<h3 id="touches-du-clavier">Touches du clavier</h3>
+<p>Faisons une expérience en écrivant à l'intérieur de la boucle évènementielle :</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYDOWN</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">())</span>
+</code></pre></div>
+<p>Dès que l'on appuie sur une touche, une suite de 0 et de 1 s'affiche. Cette suite représente les différentes touches du clavier. Une touche vaut 0 si elle n'est pas pressée ou 1 dans le cas contraire. Ainsi, il suffit d'accéder à un élément de cette suite pour savoir si une touche précise est actuellement pressée avec la syntaxe suivante :</p>
+<div class="highlight"><pre><span></span><code><span class="n">pressed</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">indice_touche</span><span class="p">]:</span> <span class="c1"># équivaut à &#39;if pressed[indice_touche] == 1&#39;</span>
+    <span class="c1"># code à éxécuter si la touche identifiée par indice_touche est pressée</span>
+</code></pre></div>
+<p><code>indice_touche</code> peut être remplacé par une des constantes vues plus haut. Par exemple, en supposant que nous souhaitons déplacer notre voiture à partir d'un rectangle <code>voiture_rect</code> déjà créé et avec l'aide des flèches directionelles, nous utiliserons <code>K_LEFT</code>, <code>K_RIGHT</code>, <code>K_UP</code> et <code>K_DOWN</code> :</p>
+<div class="highlight"><pre><span></span><code><span class="n">SPEED</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="n">pressed</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_UP</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">SPEED</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>En général, nous écrirons l'instruction <code>get_pressed</code> et tous les tests <code>pressed[indice_touche]</code> juste avant ou juste après la boucle évènementielle.</p>
+</div>
+<div class="admonition exercice">
+<p class="admonition-title">Exercice</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Enoncé</label><label for="__tabbed_1_2">Indice</label><label for="__tabbed_1_3">Solution 1</label><label for="__tabbed_1_4">Solution 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Nous pouvons désormais contrôler et manuellement déplacer notre voiture. Hélàs ! Celle-çi peut se retrouver en dehors de l'écran. Modifiez le code d'une telle manière que la voiture ne pourra jamais aller en dehors de l'écran lorsqu'on la déplace.</p>
+</div>
+<div class="tabbed-block">
+<p>Afin de vous aider, voiçi un morceau d'une des bonnes réponses :
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">left</span> <span class="o">-</span> <span class="n">SPEED</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>La première solution consiste à ajouter une condition additionelle avant de déplacer notre voiture.
+<div class="highlight"><pre><span></span><code><span class="n">pressed</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">left</span> <span class="o">-</span> <span class="n">SPEED</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">right</span> <span class="o">+</span> <span class="n">SPEED</span> <span class="o">&lt;=</span> <span class="n">screen_width</span><span class="p">:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_UP</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">top</span> <span class="o">-</span> <span class="n">SPEED</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">bottom</span> <span class="o">+</span> <span class="n">SPEED</span> <span class="o">&lt;=</span> <span class="n">screen_height</span><span class="p">:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">SPEED</span>
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>La deuxième solution consiste à ajuster la position du rectangle après son déplacement.
+<div class="highlight"><pre><span></span><code><span class="n">pressed</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">]:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">]:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_UP</span><span class="p">]:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="n">SPEED</span>
+<span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">]:</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">SPEED</span>
+<span class="n">voiture_rect</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">ajuste</span><span class="p">(</span><span class="n">voiture_rect</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">screen_width</span> <span class="o">-</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">width</span><span class="p">)</span>
+<span class="n">voiture_rect</span><span class="o">.</span><span class="n">top</span> <span class="o">=</span> <span class="n">ajuste</span><span class="p">(</span><span class="n">voiture_rect</span><span class="o">.</span><span class="n">top</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">-</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">height</span><span class="p">)</span>
+</code></pre></div>
+Voici la définition de la fonction <code>ajuste</code> :
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">ajuste</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x_min</span><span class="p">,</span> <span class="n">x_max</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">x_min</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">x_min</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">x_max</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">x_max</span>
+    <span class="k">return</span> <span class="n">x</span>
+</code></pre></div></p>
+</div>
+</div>
+</div>
+</div>
+<p>Retenons simplement que le code çi-dessous :</p>
+<div class="highlight"><pre><span></span><code><span class="n">SPEED</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="n">pressed</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_UP</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="n">SPEED</span>
+    <span class="k">if</span> <span class="n">pressed</span><span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">]:</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">SPEED</span>
+</code></pre></div>
+<p>N'agit pas de la même manière que celui-çi :</p>
+<div class="highlight"><pre><span></span><code><span class="n">SPEED</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYDOWN</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">:</span>
+                <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="n">SPEED</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">:</span>
+                <span class="n">voiture_rect</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">SPEED</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_UP</span><span class="p">:</span>
+                <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="n">SPEED</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">:</span>
+                <span class="n">voiture_rect</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">SPEED</span>
+</code></pre></div>
+<p><code>pressed[indice_touche]</code> est vrai tant que la touche est pressée (on peut maintenir la touche). Alors que <code>KEYDOWN</code> est vrai uniquement au moment où nous appuyons sur la touche (maintenir la touche n'activera pas l'évènement).</p>
+<h3 id="souris">Souris</h3>
+<p><code>get_pressed</code> existe également pour la souris et fonctionne d'une manière similaire.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Quand nous utilisons le terme "souris", l'interaction n'est pas strictement restreinte à la souris. C'est-à-dire que l'utilisateur n'a pas obligatoirement besoin d'une souris pour obtenir l'effet voulu, il peut se contenter d'utiliser les clics droit et gauche de son ordinateur.</p>
+</div>
+<p>Nous stockerons généralement le résultat obtenu grâce à <code>get_pressed</code> dans une variable (que nous nommons içi <code>pressed_mouse</code>) :</p>
+<div class="highlight"><pre><span></span><code><span class="n">pressed_mouse</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+</code></pre></div>
+<p>Le résultat renvoyé est encore une fois une suite de valeur booléennes qui ne contient cette fois cependant que trois valeurs qui représentent respectivement : le clic gauche, le clic central et le clic droit. La syntaxe pour la souris est plus ou moins identique à celle des touches du clavier :</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">pressed_mouse</span><span class="p">[</span><span class="n">indice_clic</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]:</span>
+    <span class="c1"># code à exécuter tant que ce clic est pressé par l&#39;utilisateur.</span>
+</code></pre></div>
+<p>Il existe ainsi trois valeurs différentes pour <code>indice_clic</code> :</p>
+<ul>
+<li><code>pygame.BUTTON_LEFT</code> : clic gauche</li>
+<li><code>pygame.BUTTON_MIDDLE</code> : clic milieu</li>
+<li><code>pygame.BUTTON_RIGHT</code> : clic droit</li>
+</ul>
+<p>Le <span class="arithmatex">\(-1\)</span> dans <code>indice_clic - 1</code> est important. Enfin, notons que nous pouvons omettre le <span class="arithmatex">\(-1\)</span> en remplacant simplement <code>pygame.BUTTON_LEFT</code> par  0, <code>pygame.BUTTON_MIDDLE</code> par 1, et <code>pygame.BUTTON_RIGHT</code> par 2. Toutefois, il est possible que la valeur de ces constantes puisse varier d'une machine à l'autre. Notre choix se portera donc plutôt vers les noms de constantes déjà définies que vers des valeurs numériques simples. Mais à vous de choisir ce qui vous semble le plus logique et simple à utiliser.</p>
+<p>Avant de passer à la prochaine section, il existe dans la librairie Pygame une fonction assez pratique reliée à la souris qui nous permet d'obtenir la <em>position du curseur</em>. Il s'agit de la fonction <code>get_pos</code> du module mouse. Celle-ci renvoie un tuple qui représente la position du curseur par rapport à votre écran. Par exemple, nous pouvons afficher sa valeur à chaque fois qu'on le déplace :</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEMOTION</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pos</span><span class="p">())</span>
+</code></pre></div>
+<p>Un exemple pratique que nous pouvons réaliser grâce à <code>get_pos</code> se trouve çi-dessous</p>
+<div class="highlight"><pre><span></span><code>tant que la voiture est cliquée avec le clic gauche
+    le centre de la voiture prend la position du curseur
+</code></pre></div>
+<p><div class="video-container"><iframe src="../images/mouse_move.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<div class="admonition exercice">
+<p class="admonition-title">Exercice</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Enoncé</label><label for="__tabbed_2_2">Version simple</label><label for="__tabbed_2_3">Version améliorée</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>A vous de traduire en Python l'exemple précédent ! Il faut d'abord vérifier si le clic gauche est pressé, puis nous devons vérifier que le curseur survole bien le taxi (en d'autres termes, que les deux entrent en collision). Si ces deux conditions sont remplies, alors le centre du rectangle correspondant prend la position et se déplace en fonction du curseur.</p>
+</div>
+<div class="tabbed-block">
+<p>La version simple n'oblige pas l'utilisateur à survoler la voiture au moment du clic. C'est-à-dire que l'endroit où clique l'utilisateur avant de maintenir le clic importe peu. De plus, si nous déplaçons le curseur trop rapidement, la collision avec la voiture est perdue et par conséquent elle arrête de se déplacer.
+<div class="highlight"><pre><span></span><code><span class="n">pressed_mouse</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+<span class="n">pos_souris</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pos</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">pressed_mouse</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">collidepoint</span><span class="p">(</span><span class="n">pos_souris</span><span class="p">):</span>
+    <span class="n">voiture_rect</span><span class="o">.</span><span class="n">center</span> <span class="o">=</span> <span class="n">pos_souris</span>
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p><div class="highlight"><pre><span></span><code><span class="n">pressed_mouse</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pressed</span><span class="p">()</span>
+<span class="n">pos_souris</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">get_pos</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">voiture_rect</span><span class="o">.</span><span class="n">collidepoint</span><span class="p">(</span><span class="n">pos_souris</span><span class="p">)</span> <span class="ow">or</span> <span class="n">selected</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">selectable</span> <span class="ow">and</span> <span class="n">pressed_mouse</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+        <span class="n">selected</span> <span class="o">=</span> <span class="n">pressed_mouse</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">voiture_rect</span><span class="o">.</span><span class="n">center</span> <span class="o">=</span> <span class="n">pos_souris</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">selectable</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">pressed_mouse</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>        
+</code></pre></div>
+La version améliorée traite les deux cas que la version simple ne pouvait pas gérer grâce à deux variables booléennes supplémentaires <code>selectable</code> et <code>selected</code>. La première contraint l'utilisateur à cliquer sur la voiture avant de la maintenir. Le dernière permet à l'utilisateur de déplacer le curseur rapidement sans perdre contact avec la voiture. Voiçi leur valeur initiale :</p>
+<div class="highlight"><pre><span></span><code><span class="n">selectable</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">selected</span> <span class="o">=</span> <span class="kc">False</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="4-les-timers">4 - Les timers</h2>
+<p>Il est possible que dans votre jeu, vous souhaitez inclure une mécanique qui ressemble à cela :</p>
+<div class="highlight"><pre><span></span><code>Après une période de temps précise:
+    Exécuter ce bloc de code
+</code></pre></div>
+<p>Cela est très simple à reproduire grâce au module time de Pygame et notamment à la fonction <code>set_timer(evenement, delai)</code>. Cette fonction nous permet de créer des évènements périodiques. En d'autres termes, nous pouvons créer des évènements qui se produisent toutes les <span class="arithmatex">\(x\)</span> millisecondes. </p>
+<h3 id="variables-userevent">Variables USEREVENT</h3>
+<p>Pour cela, il faut tout d'abord annoncer à l'ordinateur que nous souhaitons un nouvel évènement grâce à la constante <code>USEREVENT</code>. La syntaxe est la suivante :</p>
+<div class="highlight"><pre><span></span><code><span class="n">mon_evenement</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="n">unique</span>
+</code></pre></div>
+<p><code>unique</code> est un nombre entier qui permet, lorsqu'on utilise plusieurs fois <code>USEREVENT</code>, de différencier un évènement d'un autre. Car chaque évènement créé par <code>USEREVENT</code> doit être <em>unique</em>. Comme les évènements ne sont représentés que par des nombres entiers, il ne faut PAS que deux évènements partagent le même nombre entier. Autrement, il s'agit d'un seul même évènement et non pas deux évènements différents. Ainsi le code çi-dessous présente trois évènements différents :</p>
+<div class="highlight"><pre><span></span><code><span class="n">e1</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">8</span>
+<span class="n">e2</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">e3</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">13</span>
+</code></pre></div>
+<p>Mais le code suivant ne présente que deux évènements différents :</p>
+<div class="highlight"><pre><span></span><code><span class="n">e1</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">e2</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="n">e3</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div>
+<p>En effet, <code>e1</code> et <code>e3</code> sont identiques. Ainsi, si <code>e1</code> se produit, alors <code>e3</code> se produit également. Et cela fonctionne d'une manière réciproque. Le nombre <code>unique</code> peut prendre comme valeur n'importe quel nombre entier non négatif de 0 à 32688. Mais par convention, nous initialiserons les variables <code>USEREVENT</code> ainsi :</p>
+<div class="highlight"><pre><span></span><code><span class="n">e1</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">e2</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">e3</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="n">e4</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">4</span>
+<span class="c1"># Et ainsi de suite</span>
+</code></pre></div>
+<p>De cette manière, on incrémente <code>unique</code> de 1 chaque fois qu'on utilise <code>USEREVENT</code>, ce qui nous garantit que nous n'utiliserons jamais deux fois la même valeur pour <code>unique</code> par mégarde.</p>
+<h3 id="creer-un-timer-continu">Créer un timer continu</h3>
+<p>Nous pouvons désormais créer un timer à partir de nos variables <code>USEREVENT</code>. Pour cela, nous devons appeler AVANT la boucle principale la fonction <code>set_timer</code> :</p>
+<div class="highlight"><pre><span></span><code><span class="n">timer_event</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">set_timer</span><span class="p">(</span><span class="n">timer_event</span><span class="p">,</span> <span class="mi">3000</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="c1"># Déroulement du jeu</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Le second paramètre de la fonction <code>set_timer</code> représente le délai après lequel l'évènement passé en premier paramètre se produit. Attention ce délai est en <em>millisecondes</em> ! Dans le code çi-dessus, 3000 équivaut donc à 3 secondes et non pas à 3000 secondes.</p>
+</div>
+<p>Il reste encore une étape. Nous devons également mentionner l'évènement dans la boucle évènementielle :</p>
+<div class="highlight"><pre><span></span><code><span class="n">timer_event</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">set_timer</span><span class="p">(</span><span class="n">timer_event</span><span class="p">,</span> <span class="mi">3000</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">timer_event</span><span class="p">:</span>
+            <span class="c1"># Code à exécuter après le délai</span>
+</code></pre></div>
+<p>Pour donner un exemple, nous pouvons tourner notre voiture de 90° dans le sens horaire (comme une horloge) toutes les 1 secondes :</p>
+<div class="highlight"><pre><span></span><code><span class="n">rotation_timer</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">set_timer</span><span class="p">(</span><span class="n">rotation_timer</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">rotation_timer</span><span class="p">:</span>
+            <span class="n">taxi</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="n">taxi</span><span class="p">,</span> <span class="o">-</span><span class="mi">90</span><span class="p">)</span>
+            <span class="n">voiture_rect</span> <span class="o">=</span> <span class="n">taxi</span><span class="o">.</span><span class="n">get_rect</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">voiture_rect</span><span class="o">.</span><span class="n">center</span><span class="p">)</span>            
+</code></pre></div>
+<p><div class="video-container"><iframe src="../images/timer_rotate.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<p>Le signe négatif du 90 est important car c'est ce qui tourner notre voiture vers la droite. Si 90 était positif, la voiture aurait tourné vers la gauche. De plus la ligne :</p>
+<div class="highlight"><pre><span></span><code><span class="n">voiture_rect</span> <span class="o">=</span> <span class="n">taxi</span><span class="o">.</span><span class="n">get_rect</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">voiture_rect</span><span class="o">.</span><span class="n">center</span><span class="p">)</span>
+</code></pre></div>
+<p>Est une subtilité très importante qui pourra vous éviter bien des erreurs. En effet, dans le code précédent nous modifions l'image que portait la variable <code>taxi</code>. Or, l'ancienne image que portait <code>taxi</code> et la nouvelle image que nous lui affectons possèdent des <em>dimensions différentes</em>. Or, le rectangle selon lequel <code>taxi</code> est positionné fut obtenu à partir des dimensions de l'image initiale. Par conséquent, les dimensions de la nouvelle image et du rectangle actuel ne concordent pas. Il est donc <em>essentiel</em> de mettre à jour le rectangle associé à une image lorsque les dimensions de cette dernière changent. N'oublions jamais cela ! Nous pouvons essayer de retirer cette ligne du code précédent afin de remarquer le comportement inhabituel de la voiture si son rectangle n'est pas mis à jour :</p>
+<p><div class="video-container"><iframe src="../images/rotate_bug.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<h3 id="parametre-loops">Paramètre loops</h3>
+<p>Les timers que nous avons créé précédemment sont continus, il provoqueront toujours l'évènement après un délai spécifique. Cependant, nous pouvons créer des timers <em>finis</em>, c'est-à-dire des timers qui activeront un évènement un nombre spécifique de fois avant de n'avoir plus aucun effet. C'est le rôle du troisième paramètre facultatif de la fonction <code>set_timer</code>. Il s'agit du paramètre <code>loops</code>. Celui-çi est un nombre entier positif qui représente le nombre de fois que l'évènement doit être activé avant que le timer n'ait plus d'effet. Par exemple si nous souhaitons que l'évènement <code>apparition</code> ait lieu 3 fois avec un délai de 2 secondes, nous pouvons écrire :</p>
+<div class="highlight"><pre><span></span><code><span class="n">apparition</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">set_timer</span><span class="p">(</span><span class="n">apparition</span><span class="p">,</span> <span class="mi">2000</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</code></pre></div>
+<p><code>apparition</code> sera alors provoqué toutes les deux secondes mais cessera d'être provoqué après la troisième activation. En général, quand nous voudrons utiliser <code>loops</code>, sa valeur sera de 1 car il est commun qu'on souhaite effectuer une action une seule et unique fois après un certain délai. Par exemple, nous pouvons supposer la situation suivante :</p>
+<div class="highlight"><pre><span></span><code>Si une voiture entre en collision avec une autre voiture:
+    elles explosent
+    délai de 3 secondes avant réinitialisation du jeu
+</code></pre></div>
+<p>Ce qui peut être traduit en Python par le code suivant :</p>
+<div class="highlight"><pre><span></span><code><span class="n">taxi</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/taxi.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+<span class="n">voiture_orange</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/Car.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+<span class="n">taxi_rect</span> <span class="o">=</span> <span class="n">taxi</span><span class="o">.</span><span class="n">get_rect</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">-</span> <span class="mi">100</span><span class="p">))</span>
+<span class="n">orange_rect</span> <span class="o">=</span> <span class="n">voiture_orange</span><span class="o">.</span><span class="n">get_rect</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+<span class="n">may_collide</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">collision_timer</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">running</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">QUIT</span><span class="p">:</span>
+            <span class="n">pygame</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">collision_timer</span><span class="p">:</span>
+            <span class="n">may_collide</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">taxi</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/taxi.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+            <span class="n">taxi_rect</span><span class="o">.</span><span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">screen_height</span> <span class="o">-</span> <span class="mi">100</span><span class="p">)</span>
+            <span class="n">voiture_orange</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/Car.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+            <span class="n">orange_rect</span><span class="o">.</span><span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="n">screen_width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">may_collide</span><span class="p">:</span>    
+        <span class="k">if</span> <span class="n">taxi_rect</span><span class="o">.</span><span class="n">colliderect</span><span class="p">(</span><span class="n">orange_rect</span><span class="p">):</span>
+            <span class="n">taxi</span> <span class="o">=</span> <span class="n">voiture_orange</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;dossier_images/explosion.png&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">convert_alpha</span><span class="p">()</span>
+            <span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">set_timer</span><span class="p">(</span><span class="n">collision_timer</span><span class="p">,</span> <span class="mi">3000</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">may_collide</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="c1"># Blit, update et tick</span>
+</code></pre></div>
+<p>Içi, la variable <code>may_collide</code> empêche notamment <code>set_timer(collision_timer, 3000, 1)</code> d'être appelé plusieurs fois tant que <code>collision_timer</code> ne s'est pas produit. <code>collision_timer</code> contrôle la réinitialisation du jeu. C'est-à-dire que lorsqu'il se produit, toutes les variables reprennent leur valeur initiale.</p>
+<h2 id="challenge-final">Challenge Final</h2>
+<p>Nous devrions désormais être capable de programmer des jeux simples. Ainsi, votre nouvelle mission sera de programmer un jeu comme celui-là à partir de zéro :</p>
+<p><div class="video-container"><iframe src="../images/demo_pong.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<p>Vous pouvez retrouver toutes les images utilisées <a href="https://opengameart.org/content/pong-programmer-art">ici</a>. Dans le cas où vous n'arrivez plus du tout à avancer, vous pouvez toujours jeter un oeil au <a href="../small_pong.py">code source</a> (uniquement si cela est vraiment nécessaire).</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page">
+      
+        
+        <a href="../C5-Rectangles/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: C5 - Les rectangles" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              C5 - Les rectangles
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../C7-TextesSons/" class="md-footer__link md-footer__link--next" aria-label="Suivant: C7 - Sons et textes" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              C7 - Sons et textes
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
+      
+        <script src="../xtra/javascripts/mathjax-config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
