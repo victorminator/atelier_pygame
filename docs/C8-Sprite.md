@@ -1,1 +1,0 @@
-# C8 - Sprites et groupes
