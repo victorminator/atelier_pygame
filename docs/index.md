@@ -35,16 +35,6 @@ Pourquoi l'atelier programmation de jeux vidéos ?
 
 ---
 
-## Mot de l'auteur
-
-Tout d'abord, sachez que si vous avez une question ou quoi que ce soit d'autre à me dire, vous pouvez me contacter à l'adresse mail suivante : [pottier.victor@outlook.fr](mailto:pottier.victor@outlook.fr). De plus, pour les élèves de mon lycée (MHA) et _uniquement_ pour l'année 2022-2023, je prévois d'ouvrir un atelier d'initiation à Pygame qui s'appuiera sur ce site. Le but de cet atelier serait de pouvoir répondre à vos questions et être à votre disposition en cas de besoin. Faites-moi donc savoir si vous seriez intéressé par cet atelier. Enfin, si vous avez une idée de projet mais que vous êtes coincé dans le développement de votre jeu, n'hésitez pas à demander mon aide. J'en serai ravi.
-
-Cordialement,
-
-**Pottier Victor**
-
----
-
 ## Liste des chapitres
 
 ||Titre|Durée|
